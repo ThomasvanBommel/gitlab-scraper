@@ -1,6 +1,6 @@
 # gitlab-scraper
 
-"Scrapes" data from gitlab, like private and public repositories, profiles, commits, etc... It will do this once per hour by default, store the values, and add that information to express's `req.gitlab-data` object.
+"Scrapes" data from gitlab, like private and public repositories, profiles, commits, etc... It will do this once per hour by default, store the values, and add that information to express's `req.gitlab_data` object.
 
 This is a JavaScript module, created for use with NodeJS and the [express](https://github.com/expressjs/express) module.
 
